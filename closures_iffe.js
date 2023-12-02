@@ -4,7 +4,10 @@
     const sum = num1 + num2;
     console.log(`Sum of ${num1} and ${num2} is: ${sum}`);
 })();
+<<<<<<< HEAD
 //assignment 2
+=======
+>>>>>>> 320f9872ddb525d6ce06d1c0cded401dedb08059
 function calculateTax(taxRate) {
     return function(purchaseAmount) {
         const taxAmount = purchaseAmount * (taxRate / 100);
@@ -14,6 +17,7 @@ function calculateTax(taxRate) {
 }
 const calculateVAT = calculateTax(20); 
 const vatAmount = calculateVAT(100); 
+<<<<<<< HEAD
 
 (async () => {
     const stream = await getFileStream("https://domain.name/path/file.ext");
@@ -21,3 +25,5 @@ const vatAmount = calculateVAT(100);
       console.log({ chunk });
     }
   })();
+=======
+>>>>>>> 320f9872ddb525d6ce06d1c0cded401dedb08059
